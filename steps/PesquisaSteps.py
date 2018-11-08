@@ -11,6 +11,7 @@ def step_impl(context):
 def step_impl(context):
     context.app.escreve('lst-ib','scrum org psm I','id').submit()
     time.sleep(3)
+    pass
 
 @then(u'Obtenho o resulato da pesquisa')
 def step_impl(context):
